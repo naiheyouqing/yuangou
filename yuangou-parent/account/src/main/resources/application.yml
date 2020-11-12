@@ -1,0 +1,11 @@
+server:
+  port: 9001
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:18000/eureka
+  instance:
+    prefer-ip-address: true
+spring:
+  application:
+    name: account
